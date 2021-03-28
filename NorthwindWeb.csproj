@@ -3,5 +3,13 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include=
+      "..\NorthwindContextLib\NorthwindContextLib.csproj" />
+
+    <ProjectReference Include="..\NorthwindEmployees\NorthwindEmployees.csproj" />
+    
+  </ItemGroup>
 
 </Project>
